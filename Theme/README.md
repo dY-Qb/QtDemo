@@ -20,6 +20,7 @@ Theme/
     ├── SvgIcon.cpp/h      # SVG图标支持
     └── theme.pri          # 主题库构建配置
 ```
+
 ## 演示内容
 
 演示程序包含多个标签页，展示各种Qt控件的主题效果：
@@ -65,4 +66,13 @@ connect(selector, &SimpleThemeSelector::themeChanged, [](const QString &theme) {
 });
 ```
 
+## 截图预览
 
+| 主题 | 预览 |
+|------|------|
+| Classic | ![Classic](doc/pics/classic.jpg) |
+| Dark | ![Dark](doc/pics/dark.jpg) |
+| Design Light | ![Design Light](doc/pics/designlight.jpg) |
+| Design Dark | ![Design Dark](doc/pics/designdark.jpg) |
+| Flat Light | ![Flat Light](doc/pics/flatlight.jpg) |
+| Flat Dark | ![Flat Dark](doc/pics/flatdark.jpg) |
