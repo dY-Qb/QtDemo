@@ -2,16 +2,7 @@
 
 Qt主题库和演示程序，展示如何为Qt应用程序实现完整的主题切换功能。
 
-## 功能特性
-
-- 完整的主题框架，支持动态切换主题
-- 包含多种Qt控件的主题效果演示
-- SVG图标支持
-- 插件化架构（基于Qt Creator的CorePlugin）
-- 主题选择器组件
-
 ## 项目结构
-
 ```
 Theme/
 ├── ThemeDemo.pro          # 演示程序项目文件
@@ -29,17 +20,6 @@ Theme/
     ├── SvgIcon.cpp/h      # SVG图标支持
     └── theme.pri          # 主题库构建配置
 ```
-
-## 构建说明
-
-### 使用 qmake
-
-```bash
-cd Theme
-qmake ThemeDemo.pro
-make  # 或 nmake / mingw32-make
-```
-
 ## 演示内容
 
 演示程序包含多个标签页，展示各种Qt控件的主题效果：
